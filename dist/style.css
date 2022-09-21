@@ -3,6 +3,7 @@
   --clr-blue-100: hsl(225, 100%, 98%);
   --clr-blue-300: hsl(225, 100%, 94%);
   --clr-blue-500: hsl(245, 75%, 52%);
+  --clr-blue-600: hsl(245, 83%, 68%);
   --clr-blue-700: hsl(224, 23%, 55%);
   --clr-blue-900: hsl(223, 47%, 23%);
 }
@@ -41,7 +42,9 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: var(--clr-blue-300);
+  background-color: var(--clr-primary-100);
+  color: var(--clr-blue-300);
+  font-family: "Red Hat Display", sans-serif;
 }
 
 /* A elements that don't have a class get default styles */

@@ -1,3 +1,4 @@
+@use '../utils' as u;
 @use 'color' as c;
 
 /* Box sizing rules */
@@ -34,7 +35,9 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: var(--clr-blue-300);
+  background-color: c.$bg-color;
+  color: c.$text-light;
+  font-family: u.$font;
 }
 
 /* A elements that don't have a class get default styles */

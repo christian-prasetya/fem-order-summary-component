@@ -1,0 +1,23 @@
+@use '../utils' as u;
+@use 'color' as c;
+
+h1 {
+  font-size: u.rem(22);
+  margin-top: 0;
+}
+
+p,
+a {
+  font-size: u.rem(15);
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: c.$text-active;
+}

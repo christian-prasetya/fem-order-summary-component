@@ -4,6 +4,13 @@
   --clr-blue-100: hsl(225, 100%, 98%);
   --clr-blue-300: hsl(225, 100%, 94%);
   --clr-blue-500: hsl(245, 75%, 52%);
+  --clr-blue-600: hsl(245, 83%, 68%);
   --clr-blue-700: hsl(224, 23%, 55%);
   --clr-blue-900: hsl(223, 47%, 23%);
 }
+
+$bg-color: var(--clr-primary-100);
+$text-light: var(--clr-blue-300);
+$text-dark: var(--clr-blue-900);
+$text-white: var(--clr-primary-100);
+$text-active: var(--clr-blue-600);
