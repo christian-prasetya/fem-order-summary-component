@@ -1,3 +1,5 @@
+@use 'color' as c;
+
 /* Box sizing rules */
 *,
 *::before,
@@ -32,6 +34,7 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: var(--clr-blue-300);
 }
 
 /* A elements that don't have a class get default styles */
