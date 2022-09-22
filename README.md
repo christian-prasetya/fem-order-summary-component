@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Go to my GitHub repo](https://github.com/christian-prasetya/fem-order-summary-component)
+- Solution URL: [Go to my solution site](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/mobilefirst-responsive-order-summary-card-solution-vjMQIRmrzU)
 - Live Site URL: [Go to the live site](https://christian-prasetya.github.io/fem-order-summary-component/)
 
 ## My process
