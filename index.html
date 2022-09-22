@@ -17,38 +17,50 @@
 
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-  Order Summary
+  <main class='flex'>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any
-  device anywhere you like!
+    <div class="card__image">
+      <img src="images/illustration-hero.svg" alt="person listening to the music">
+    </div>
 
-  Annual Plan
-  $59.99/year
+    <div class="card__info">
+      <h1>Order Summary</h1>
 
-  Change
+      <p>
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
 
-  Proceed to Payment
-  Cancel Order
+      <div class="card__info-pricing flex-row">
+        <div class="pricing-image">
+          <img src="images/icon-music.svg" alt="music icon">
+        </div>
+        <div class="pricing-plan">
+          <p class='bold-text'>Annual Plan</p>
+          <p class='price'>$59.99/year</p>
+        </div>
+        <a href="#">Change</a>
+      </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="card__info-confirm">
+        <button class="btn">
+          Proceed to Payment
+        </button>
+      </div>
+
+      <a href="#" class="cancel">Cancel Order</a>
+    </div>
+  </main>
+
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/christian-prasetya">Christian Prasetya</a>.</p>
+  </footer>
 </body>
 
 </html>

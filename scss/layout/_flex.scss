@@ -1,0 +1,13 @@
+@use '../utils' as u;
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}

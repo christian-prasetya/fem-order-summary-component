@@ -1,0 +1,23 @@
+@use '../utils' as u;
+@use '../base' as b;
+
+.btn {
+  width: 100%;
+  font-size: u.rem(15);
+  color: b.$bg-color;
+  border: none;
+  background-color: b.$button-color;
+  border-radius: u.rem(10);
+  padding: u.rem(18);
+  box-shadow: u.rem(0) u.rem(5) u.rem(7) u.rem(5) b.$button-shadow;
+  margin-bottom: u.rem(24);
+
+  &:focus,
+  &:active {
+    background-color: b.$button-active;
+  }
+
+  @include u.breakpoint(large) {
+    padding: u.rem(24);
+  }
+}

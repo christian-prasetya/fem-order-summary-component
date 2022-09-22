@@ -35,9 +35,22 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: c.$bg-color;
+  background-color: c.$bg-light;
   color: c.$text-light;
   font-family: u.$font;
+  background-image: url(../../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: u.rem(70) u.rem(23);
+
+  @include u.breakpoint(large) {
+    background-image: url(../../images/pattern-background-desktop.svg);
+    padding: u.rem(102) u.rem(400);
+  }
 }
 
 /* A elements that don't have a class get default styles */
